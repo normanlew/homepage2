@@ -131,6 +131,7 @@ content {
     width: 100%;
     align-items: center;
     gap: 2.0rem;
+    padding-bottom: 5rem;
 }
 
 .project_individual {
@@ -175,5 +176,42 @@ content {
 .project_link_icon {
     width: 1rem;
     height: auto;
+}
+
+.contact {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    width: 100%
+}
+
+.contact_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact_link_icon {
+    width: 2.1rem;
+    height: auto;
+}
+
+.picture {
+    width: 100%;
+}
+
+.contact_picture {
+    width: 100%
 }
 

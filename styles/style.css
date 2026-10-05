@@ -108,7 +108,7 @@ content {
     padding-bottom: 3rem
 }
 
-.link_icon {
+.about_link_icon {
     width: 2rem;
     height: auto;
 }
@@ -130,6 +130,7 @@ content {
     flex-direction: column;
     width: 100%;
     align-items: center;
+    gap: 2.0rem;
 }
 
 .project_individual {
@@ -151,17 +152,28 @@ content {
     background-color: darkorange;
 }
 
-.project_description {
+.project_info {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: white;
 }
 
 .project_name_links {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-    background-color: white;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    align-items: center;
+    width: 100%;    
+    
+}
+
+.project_link_icon {
+    width: 1rem;
+    height: auto;
 }
 
